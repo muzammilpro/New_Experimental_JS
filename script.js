@@ -42,8 +42,35 @@
 // console.log(slicedFruitsFromStart);
 // // Output: ['orange', 'mango', 'grape']
 
-var fruits = ['apple', 'banana', 'orange', 'mango', 'grape'];
 
-var slicedFruits = fruits.slice(0 , 3)
+// var fruits = ['apple', 'banana', 'orange', 'mango', 'grape'];
 
-console.log(slicedFruits);
+// var slicedFruits = fruits.slice(0 , 3)
+
+// console.log(slicedFruits);
+
+
+// var numbers = [1, 2, 3, 4, 5];
+
+// var doubledNumbers = numbers.map(function(element) {
+//   return element * 2;
+// });
+
+// console.log(doubledNumbers);
+// // Output: [2, 4, 6, 8, 10]
+
+
+
+
+var numbers = [1, 2, 3, 4, 5];
+
+function mapped(element) {
+  return element * 2;
+}
+
+var newMappedArray = numbers.map(mapped);
+
+console.log(newMappedArray);
+
+
+  
