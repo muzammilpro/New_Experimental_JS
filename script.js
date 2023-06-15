@@ -61,16 +61,22 @@
 
 
 
+// var numbers = [1, 2, 3, 4, 5];
 
-var numbers = [1, 2, 3, 4, 5];
+// function mapped(element) {
+//    var check = element % 2;
+//    if (check == 0) {
+//       return "even";
+//    } else {
+//       return "odd";
+//    }
+// }
 
-function mapped(element) {
-  return element * 2;
-}
+// var newMappedArray = numbers.map(mapped);
 
-var newMappedArray = numbers.map(mapped);
+// console.log(newMappedArray);
 
-console.log(newMappedArray);
+
 
 
   
