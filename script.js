@@ -78,10 +78,15 @@
 
 
 
+// var fruits = ['apple', 'banana', 'orange', 'mango', 'grape']
+
+// fruits.splice(1 , 1 , 'Muzammil')
+
+// console.log(fruits);
+
 var fruits = ['apple', 'banana', 'orange', 'mango', 'grape']
 
-fruits.splice(1 , 0 , 'Muzammil')
 
-console.log(fruits);
-
-  
+fruits.forEach((element , index) => {
+    console.log(element + ' Fruits ' + 'is on index ' + index);
+})
