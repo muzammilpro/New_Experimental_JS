@@ -98,7 +98,7 @@
 var numbers = [1, 2, 3, 4, 5]
 
 function doubleNumbers(element){
-    return element * 2
+    return element + ' Hello'
 }
 
 var doubleNumber = numbers.map(doubleNumbers)
