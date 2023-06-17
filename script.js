@@ -78,5 +78,10 @@
 
 
 
+var fruits = ['apple', 'banana', 'orange', 'mango', 'grape']
+
+fruits.splice(1 , 0 , 'Muzammil')
+
+console.log(fruits);
 
   
