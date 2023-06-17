@@ -84,9 +84,23 @@
 
 // console.log(fruits);
 
-var fruits = ['apple', 'banana', 'orange', 'mango', 'grape']
 
 
-fruits.forEach((element , index) => {
-    console.log(element + ' Fruits ' + 'is on index ' + index);
-})
+// var fruits = ['apple', 'banana', 'orange', 'mango', 'grape']
+
+
+// fruits.forEach((element , index) => {
+//     console.log(element + ' Fruits ' + 'is on index ' + index);
+// })
+
+
+
+var numbers = [1, 2, 3, 4, 5]
+
+function doubleNumbers(element){
+    return element * 2
+}
+
+var doubleNumber = numbers.map(doubleNumbers)
+console.log(doubleNumber);
+
