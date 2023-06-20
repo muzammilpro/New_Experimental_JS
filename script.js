@@ -95,12 +95,23 @@
 
 
 
-var numbers = [1, 2, 3, 4, 5]
+// var numbers = [1, 2, 3, 4, 5]
 
-function doubleNumbers(element){
-    return element + ' Muzammil is the name of unforgettable'
+// function doubleNumbers(element){
+//     return element + ' Muzammil is the name of unforgettable'
+// }
+
+// var doubleNumber = numbers.map(doubleNumbers)
+// console.log(doubleNumber);
+
+
+function factorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
 }
 
-var doubleNumber = numbers.map(doubleNumbers)
-console.log(doubleNumber);
-
+var number = 5;
+var result = factorial(number);
+console.log("The factorial of " + number + " is: " + result);
